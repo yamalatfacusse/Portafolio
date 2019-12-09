@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Contact</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-custom.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
+crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<meta name="Description" content="A mind in the form of art.">
+	<meta name="Keywords" content="cine, arte, guion, audiovisual, producción, honduras, tegucigalpa, comunicación, publicidad">
+</head>
+
+<body>
+	<header>
+		<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html"><img src="img/1x/logo.jpeg" class="img-fluid" alt="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html"> Portfolio</a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="services.html">Services</a>
+      </li>
+		<li class="nav-item  active">
+          <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    	</ul>
+	  	<ul class="navbar-nav ml-auto">
+		  <li class="nav-item">
+        <a class="nav-link" href="https://www.instagram.com/yamalatfacusse/"><i class="fab fa-instagram"></i></a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="https://www.facebook.com/yamalatfacusse"><i class="fab fa-facebook"></i></a>
+      </li>
+	</ul>
+  </div>
+</nav>
+	</div>
+</header>
+	<section id="contact">
+	<container>
+	<h1>Contact</h1>
+	</container>
+	</section>
+			<section id="content">
+		<div class="container">
+			<div class="row">
+				<article class="col-md-6 col-sm-12">
+					<div class="wow fadeInUp" data-wow-duration="2s">
+					<h2 class="titulo">Contáctame!</h2>
+					</div>
+					<br>
+					<div class="wow fadeInUp" data-wow-duration="3s">
+					<p><i class="fas fa-phone"></i>(+504) 9456-9158</p><br>
+					<p><i class="fas fa-envelope"></i>yamalatf@gmail.com</p>
+					</div>
+				</article>
+				
+				<article class="col-md-6 col-sm-12 col-xs-12">
+					<form id="form" name="form" action="" method="post">
+						<br>
+						<div class="row">
+						<div class="form-group col-md-6 col-sm-12 col-xs-12">
+							<input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre">
+						</div>
+						
+						<div class="form-group col-md-6 col-sm-12 col-xs-12">
+							<input type="email" id="correo" name="Correo" class="form-control" required placeholder="E-mail">
+						</div>
+							
+						</div>
+						<div class="row">
+						<div class="form-group col-md-6 col-sm-12">
+							<select id="subject" name="subject" class="form-control">
+								<option value="consulta">Te llamaremos</option>
+								<option value="si">Si</option>
+								<option value="no">No</option>
+							</select>
+							</div>
+							<div class="form-group col-md-6 col-sm-12">
+							<input type="Telefono" id="Telefono" name="Telefono" class="form-control" placeholder="Teléfono">
+						</div>
+						</div>
+						<div class="form-group">
+							<textarea id="messages" name="messages" class="form-control" placeholder="Messages" rows="8"></textarea>
+						</div>
+						
+						<div class="form-group">
+							<button type="submit" class="btn btn-success btn-verde btn-block">Submit</button>
+						
+						</div>
+						</form>
+				</article>
+			</div>
+		</div>
+	</section>
+	<section id="mapa">
+	<div class="container">
+		<div id="map">
+		</div>
+		</div>
+	</section>
+	<footer>
+	<div clas="container">
+	<img src="img/1x/logo.jpeg" class="img-fluid" alt="yamalat-facusse">
+	<p>Derechos Reservados.</p>
+	</div>
+	</footer>		<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>new 
+		WOW().init();
+	</script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script>
+
+$(function(){
+
+$(".app-carousel").owlCarousel({
+				items: 1,
+				loop: true,
+				autoplay: true,
+				smartSpeed: 800,
+				margin: 30,
+				center: true,
+				dots: true,
+				responsive: {
+					0: {
+						items: 1
+					},
+					480: {
+						items: 3
+					},
+					992: {
+						items: 5
+					}
+				}
+			});
+
+
+});
+
+</script>
+		   
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=false"></script>
+<script src="js/gmaps.js"></script>
+<script>
+$(function () {
+	
+	$(window).load(function(){
+		mostrarMapa();
+	});
+
+	function mostrarMapa(){
+		var map;
+		var mLat = 14.048399; //latitud
+		var mLng = -87.174078; //longitud
+
+		map = new GMaps({
+			div: '#map', //id del <div> donde se mostrará el mapa.
+			lat: mLat,
+			lng: mLng,
+			zoom: 18
+		  });
+		map.addMarker({
+		  lat: mLat,
+		  lng: mLng,
+		  title: 'Nuestra ubicación en gMaps',
+		  infoWindow: {
+			content: '<p>UNITEC - Univ. Tecnológica de Honduras</p>'
+		  }
+		});	
+		
+	}
+});
+</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147068639-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147068639-1');
+</script>
+
+</body>
+</html>
